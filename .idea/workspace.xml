@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Added new project in PyCharm">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,11 +46,34 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="" />
+      <changelist id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
       <created>1591444482136</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591444482136</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added addition description for readme file">
+      <created>1591446036555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591446036555</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added addition description for readme file">
+      <created>1591446080620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591446080620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new project in PyCharm">
+      <created>1591446217290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591446217290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,7 +87,20 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added addition description for readme file" />
+    <MESSAGE value="Added new project in PyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new project in PyCharm" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="687" y="419" key="VCS.ChangelistChooser" timestamp="1591446183525">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591446279012">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591446279012" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591444681179">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
