@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан тест &quot;Добавление контакта&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/env" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
+  <component name="RunManager" selected="Python tests.pytest for test_add_contact.TestAddContact">
     <configuration name="Unittests for test_add_group.TestAddGroup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact" />
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.Unittests for test_add_group.TestAddGroup" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup.test_add_empty_group" />
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591527125088</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Создан тест &quot;Добавление контакта&quot;">
+      <created>1591531202471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591531202471</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,29 +240,30 @@
     <MESSAGE value="Katalon test for add group" />
     <MESSAGE value="Добавлены вспомогальные методы, повышена читаемость кода" />
     <MESSAGE value="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы" />
+    <MESSAGE value="Создан тест &quot;Добавление контакта&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан тест &quot;Добавление контакта&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="215" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1591450561952" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1591530538843">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1591542224046">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1591530538843" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1591530538843">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224046" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1591542224045">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1591530538843" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1591530538843">
+    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224045" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1591542224045">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1591530538843" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1591530538843">
+    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224045" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1591542224046">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1591530538843" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224046" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -267,17 +276,17 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591527134150">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591531213387">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591527134150" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591531213387" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591444681179">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591444681179" />
-    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1591525475033">
+    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1591535083680">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591525475033" />
+    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591535083680" />
   </component>
 </project>
