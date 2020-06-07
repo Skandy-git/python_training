@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Katalon test for add group v1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
-    </list>
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Добавлены вспомогальные методы, повышена читаемость кода" />
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1cwfGiO5aoaNXcXPBMx3dNvKbvd" />
   <component name="ProjectViewState">
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591453241873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавлены вспомогальные методы, повышена читаемость кода">
+      <created>1591523850022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591523850022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,29 +170,34 @@
     <MESSAGE value="Added new project in PyCharm" />
     <MESSAGE value="Added and edited Katalon test for testing &quot;Add_group&quot;" />
     <MESSAGE value="Katalon test for add group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Katalon test for add group" />
+    <MESSAGE value="Добавлены вспомогальные методы, повышена читаемость кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены вспомогальные методы, повышена читаемость кода" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="215" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1591450561952" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1591522773937">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1591523721076">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1591522773937" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1591522773937">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1591523721076" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1591523721076">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1591522773937" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1591522773937">
+    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1591523721076" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1591523721076">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1591522773937" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1591522773937">
+    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1591523721076" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1591523721076">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1591522773937" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1591523721076" />
+    <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="363" y="284" key="MultipleFileMergeDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591523948187" />
     <state x="341" y="150" key="SettingsEditor" timestamp="1591522076568">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -196,10 +206,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591453460449">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591523920083">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591453460449" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591523920083" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591444681179">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
