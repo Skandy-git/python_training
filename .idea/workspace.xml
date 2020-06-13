@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан тест &quot;Добавление контакта&quot;">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
@@ -54,22 +54,50 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/env" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_contact.TestAddContact">
-    <configuration name="Unittests for test_add_group.TestAddGroup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
+    <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.TestAddGroup&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_contact.TestAddContact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="geometry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_contact.TestAddContact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +109,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.TestAddContact&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact.TestAddContact.test_add_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.TestAddGroup.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +125,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.TestAddGroup.test_add_empty_group&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -117,29 +145,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
-        <item itemvalue="Python tests.Unittests for test_add_group.TestAddGroup" />
-        <item itemvalue="Python tests.pytest in test_add_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.TestAddGroup.test_add_empty_group" />
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
+        <item itemvalue="Python.application" />
+        <item itemvalue="Python.geometry" />
+        <item itemvalue="Python tests.pytest for test_add_contact.TestAddContact.test_add_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591531202471</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;">
+      <created>1591542839160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591542839160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,29 +260,30 @@
     <MESSAGE value="Добавлены вспомогальные методы, повышена читаемость кода" />
     <MESSAGE value="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы" />
     <MESSAGE value="Создан тест &quot;Добавление контакта&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан тест &quot;Добавление контакта&quot;" />
+    <MESSAGE value="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="215" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1591450561952" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1591542224046">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592052388964">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224046" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1591542224045">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1592052388964" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1592052388963">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224045" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1591542224045">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1592052388963" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1592052388963">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224045" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1591542224046">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1592052388963" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1592052388963">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1591542224046" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1592052388963" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -276,17 +296,21 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591531213387">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1591542843613">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591531213387" />
-    <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591444681179">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591542843613" />
+    <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1591444681179" />
-    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1591535083680">
+    <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592046784933" />
+    <state x="543" y="293" key="git4idea.merge.GitPullDialog" timestamp="1592047736127">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591535083680" />
+    <state x="543" y="293" key="git4idea.merge.GitPullDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592047736127" />
+    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1591548074397">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591548074397" />
   </component>
 </project>
