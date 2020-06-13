@@ -1,20 +1,13 @@
-from selenium import webdriver
-
-class Application:
-    def __init__(self):
-        self.wd = webdriver.Firefox()
-        self.wd.implicitly_wait(30)
-
-    def Logout(self):
-        wd = self.wd
-        wd.find_element_by_link_text("Logout").click()
+class ContactHelper:
+    def __init__(self, app):
+         self.app = app
 
     def Return_to_contact_page(self):
-        wd = self.wd
+        wd = self.app.wd
         wd.find_element_by_link_text("home page").click()
 
-    def Create_contact(self, contact):
-        wd = self.wd
+    def Contact(self, contact):
+        wd = self.app.wd
         # Init contact creation
         wd.find_element_by_link_text("add new").click()
         # Fill contact form
@@ -53,21 +46,3 @@ class Application:
         wd.find_element_by_name("byear").send_keys(contact.byear)
         # Submit contact creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
-
-    def Login(self, login, password):
-        wd = self.wd
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(login)
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys(password)
-        wd.find_element_by_xpath("//input[@value='Login']").click()
-
-    def Open_home_page(self):
-        wd = self.wd
-        wd.get("http://localhost/addressbook/index.php")
-
-
-
-    def destroy(self):
-        self.wd.quit()
