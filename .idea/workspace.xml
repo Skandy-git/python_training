@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Реализована двухуровневая структура архитектура тестов. Созданы классы-помощники">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан новый тест &quot;Delete_Group&quot;. Сделана общая фикстура (conftest.py) для всех тестов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
@@ -57,13 +57,35 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\python_training\test" />
+      <recent name="C:\Users\User\PycharmProjects\python_training" />
       <recent name="C:\Users\User\PycharmProjects\python_training\model" />
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
-      <recent name="C:\Users\User\PycharmProjects\python_training\test" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test">
-    <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fixture/contact.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test.test_delete_contact.test_delete_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +97,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
+      <option name="_new_target" value="&quot;test.test_delete_contact.test_delete_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_delete_contact.test_delete_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_update_contact.test_update_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +113,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delete_contact.test_delete_contact&quot;" />
+      <option name="_new_target" value="&quot;test_update_contact.test_update_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -111,23 +133,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_delete_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_update_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,17 +145,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_delete_contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_update_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test" />
-        <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
-        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
-        <item itemvalue="Python tests.pytest in test_delete_contact.py" />
+        <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
+        <item itemvalue="Python.contact" />
+        <item itemvalue="Python tests.pytest in test_update_contact.py" />
+        <item itemvalue="Python tests.pytest for test.test_delete_contact.test_delete_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592062582838</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Создан новый тест &quot;Delete_Group&quot;. Сделана общая фикстура (conftest.py) для всех тестов">
+      <created>1592141146672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592141146672</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,29 +288,30 @@
     <MESSAGE value="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;" />
     <MESSAGE value="Переведен тест Add_Contact на py.test вместо inittest. Реализована фикстура" />
     <MESSAGE value="Реализована двухуровневая структура архитектура тестов. Созданы классы-помощники" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализована двухуровневая структура архитектура тестов. Созданы классы-помощники" />
+    <MESSAGE value="Создан новый тест &quot;Delete_Group&quot;. Сделана общая фикстура (conftest.py) для всех тестов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан новый тест &quot;Delete_Group&quot;. Сделана общая фикстура (conftest.py) для всех тестов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="215" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1591450561952" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592139964404">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592149410210">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1592139964404" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1592139964404">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1592149410210" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1592149410210">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1592139964404" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1592139964404">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1592149410210" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1592149410210">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1592139964404" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1592139964404">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1592149410210" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1592149410210">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1592139964404" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1592149410210" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -310,10 +324,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592062691136">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592141154786">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592062691136" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592141154786" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
