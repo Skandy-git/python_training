@@ -46,12 +46,14 @@ class ContactHelper:
         wd.find_element_by_name("byear").send_keys(contact.byear)
         # Submit contact creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
+        self.Return_to_contact_page()
 
     def Delete_Contact(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
+
 
     def Update_Contact(self, contact):
         wd = self.app.wd
@@ -91,3 +93,4 @@ class ContactHelper:
         wd.find_element_by_name("byear").send_keys(contact.byear)
         # Submit contact creation
         wd.find_element_by_name("update").click()
+        self.Return_to_contact_page()
