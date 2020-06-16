@@ -11,7 +11,7 @@ class Application:
         self.contact = ContactHelper(self)
         self.group = GroupHelper(self)
 
-    def Open_home_page(self):
+    def open_home_page(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/index.php")
 

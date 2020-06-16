@@ -1,4 +1,4 @@
 def test_Delete_Group(app):
-    app.session.Login(login="admin", password="secret")
-    app.group.Delete_group()
-    app.session.Logout()
+    app.session.login(login="admin", password="secret")
+    app.group.delete_group()
+    app.session.logout()
