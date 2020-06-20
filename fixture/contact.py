@@ -4,7 +4,8 @@ class ContactHelper:
 
     def return_to_contact_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home page").click()
+        if not (wd.current_url.endswith("/index.php") and len(wd.find_elements_by_link_text("//input[@value='Delete']")) > 0):
+            wd.find_element_by_link_text("home page").click()
 
     def contact(self, contact):
         wd = self.app.wd
