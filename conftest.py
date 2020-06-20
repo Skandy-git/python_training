@@ -3,6 +3,7 @@ from fixture.application import Application
 
 fixture = None
 
+
 @pytest.fixture
 def app():
     global fixture
@@ -14,6 +15,7 @@ def app():
             fixture = Application()
             app.session.login(login="admin", password="secret")
     return fixture
+
 
 @pytest.fixture(scope="session", autouse=True)
 def stop(request):
