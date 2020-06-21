@@ -22,6 +22,7 @@
     <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Добавлен переход на страницу контаков перед подсчётом количества контактов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_update_contact.test_update_contact">
+  <component name="RunManager" selected="Python tests.pytest for test_delete_contact.test_delete_contact">
     <configuration name="pytest for test_delete_contact.test_delete_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
         <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
+        <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_delete_group.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592731908338</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Добавлен переход на страницу контаков перед подсчётом количества контактов">
+      <created>1592732761139</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1592732761139</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,22 +373,22 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592680458818">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592733027937">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1592680458818" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1592680458818">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1592733027937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1592733027937">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1592680458818" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1592680458818">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1592733027937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1592733027937">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1592680458818" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1592680458818">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1592733027937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1592733027937">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1592680458818" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1592733027937" />
     <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1592673861341">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -417,10 +425,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592732263385">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592732766718">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592732263385" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592732766718" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
