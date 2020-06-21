@@ -4,8 +4,11 @@ class ContactHelper:
 
     def return_to_contact_page(self):
         wd = self.app.wd
-        if not (wd.current_url.endswith("/index.php") and len(wd.find_elements_by_link_text("//input[@value='Delete']")) > 0):
-            wd.find_element_by_link_text("home page").click()
+        wd.find_element_by_link_text("home page").click()
+
+    def open_contact_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home page").click()
 
     def contact(self, contact):
         wd = self.app.wd
@@ -19,12 +22,14 @@ class ContactHelper:
 
     def delete_contact(self):
         wd = self.app.wd
+        self.open_contact_page()
         wd.find_element_by_name("selected[]").click()
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
 
     def update_contact(self, contact):
         wd = self.app.wd
+        self.open_contact_page()
         wd.find_element_by_name("selected[]").click()
         wd.find_element_by_xpath("//img[@alt='Edit']").click()
         # Fill contact form
@@ -59,4 +64,5 @@ class ContactHelper:
 
     def count(self):
         wd = self.app.wd
+        self.open_contact_page()
         return len(wd.find_elements_by_name("selected[]"))
