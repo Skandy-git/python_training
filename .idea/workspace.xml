@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Оптимизированы переходы между страницами для групп и контактов">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Добавлен переход на страницу контаков перед подсчётом количества контактов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_delete_contact.test_delete_contact">
+  <component name="RunManager" selected="Python tests.pytest for test_update_contact.test_update_contact">
     <configuration name="pytest for test_delete_contact.test_delete_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
-        <item itemvalue="Python tests.pytest in test_delete_group.py" />
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
+        <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
+        <item itemvalue="Python tests.pytest in test_delete_group.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
       </list>
     </recent_temporary>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592678645006</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Оптимизированы переходы между страницами для групп и контактов">
+      <created>1592731908338</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592731908338</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,14 +353,18 @@
     <MESSAGE value="Реализована проверка валидности фикстуры для контактов" />
     <MESSAGE value="Реализована проверка состояния сессии. Написан новый тест добавления контакта только с ФИО" />
     <MESSAGE value="Выполнены предусловия в тестах для удаления и модификации групп и контактов" />
-    <MESSAGE value="Оптимизированы переходы между страницами для групп и контактов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оптимизированы переходы между страницами для групп и контактов" />
+    <MESSAGE value="Добавлен переход на страницу контаков перед подсчётом количества контактов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен переход на страницу контаков перед подсчётом количества контактов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="215" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1591450561952" />
+    <state x="550" y="405" key="GitRewordDialog" timestamp="1592732244497">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
     <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1592680458818">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -395,6 +405,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="655" y="439" key="ReplaceDuplicatesPrompt/0.0.1680.1010@0.0.1680.1010" timestamp="1592640447770" />
+    <state x="610" y="207" key="RollbackChangesDialog" timestamp="1592732118765">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="610" y="207" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732118765" />
     <state x="341" y="150" key="SettingsEditor" timestamp="1591522076568">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -403,10 +417,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592678918727">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1592732263385">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592678918727" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592732263385" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
