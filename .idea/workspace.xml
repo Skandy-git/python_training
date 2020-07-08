@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Сделаны тесты для проверки телефонов">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Реализованы проверки для всех полей контакта на главной странице">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,23 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_check_all_info.test_all_info_on_homepage">
+  <component name="RunManager" selected="Python tests.pytest for test_add_contact.test_add_contact">
+    <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_check_all_info.test_all_info_on_homepage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,29 +146,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_phones.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_phones.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest for test_check_all_info.test_all_info_on_homepage" />
         <item itemvalue="Python tests.pytest for test_phones.test_phones_on_homepage" />
         <item itemvalue="Python tests.pytest for test_phones.test_phones_on_contact_view_page" />
-        <item itemvalue="Python tests.pytest in test_phones.py" />
-        <item itemvalue="Python tests.pytest in test_add_group.py" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594128375241</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Реализованы проверки для всех полей контакта на главной странице">
+      <created>1594142177165</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594142177165</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Реализованы проверки для всех полей контакта на главной странице">
+      <created>1594211231100</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594211231100</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +422,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Katalon test for add group" />
     <MESSAGE value="Добавлены вспомогальные методы, повышена читаемость кода" />
     <MESSAGE value="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы" />
     <MESSAGE value="Создан тест &quot;Добавление контакта&quot;" />
@@ -431,7 +446,8 @@
     <MESSAGE value="Реализован случайный выбор группы(контакта) для модификации и удаления" />
     <MESSAGE value="Исправлена ошибка в методе для модификации контактов таким образом, чтобы модифицировался случайно выбранный контакт по кнопке &quot;Edit&quot;" />
     <MESSAGE value="Сделаны тесты для проверки телефонов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделаны тесты для проверки телефонов" />
+    <MESSAGE value="Реализованы проверки для всех полей контакта на главной странице" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованы проверки для всех полей контакта на главной странице" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
@@ -442,38 +458,38 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1594141991144">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1594216872921">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594141991144" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1594141991144">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872921" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1594216872920">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594141991144" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1594141991144">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1594216872920">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594141991144" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1594141991144">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1594216872920">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594141991144" />
-    <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1594135135563">
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
+    <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1594142581094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594135135563" />
-    <state width="1659" height="336" key="GridCell.Tab.1.center" timestamp="1594135135563">
+    <state width="1659" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594142581094" />
+    <state width="1659" height="336" key="GridCell.Tab.1.center" timestamp="1594142581094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594135135563" />
-    <state width="1659" height="336" key="GridCell.Tab.1.left" timestamp="1594135135562">
+    <state width="1659" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594142581094" />
+    <state width="1659" height="336" key="GridCell.Tab.1.left" timestamp="1594142581094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594135135562" />
-    <state width="1659" height="336" key="GridCell.Tab.1.right" timestamp="1594135135563">
+    <state width="1659" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594142581094" />
+    <state width="1659" height="336" key="GridCell.Tab.1.right" timestamp="1594142581094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594135135563" />
+    <state width="1659" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594142581094" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -494,10 +510,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1594128382506">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1594211248844">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1594128382506" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1594211248844" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
