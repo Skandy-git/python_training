@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Реализованы проверки для всех полей контакта на главной странице">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Параметризованы тесты для создания групп и контактов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -406,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594211231100</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Параметризованы тесты для создания групп и контактов">
+      <created>1594216997659</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1594216997659</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавлены вспомогальные методы, повышена читаемость кода" />
     <MESSAGE value="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы" />
     <MESSAGE value="Создан тест &quot;Добавление контакта&quot;" />
     <MESSAGE value="Созданы вспомогательные методы и создан вспомогательный класс для теста &quot;Создание класса&quot;" />
@@ -447,7 +451,8 @@
     <MESSAGE value="Исправлена ошибка в методе для модификации контактов таким образом, чтобы модифицировался случайно выбранный контакт по кнопке &quot;Edit&quot;" />
     <MESSAGE value="Сделаны тесты для проверки телефонов" />
     <MESSAGE value="Реализованы проверки для всех полей контакта на главной странице" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы проверки для всех полей контакта на главной странице" />
+    <MESSAGE value="Параметризованы тесты для создания групп и контактов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Параметризованы тесты для создания групп и контактов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1591450561952">
@@ -458,22 +463,22 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1594216872921">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1594218525322">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872921" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1594216872920">
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594218525322" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1594218525322">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1594216872920">
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594218525322" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1594218525321">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1594216872920">
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594218525321" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1594218525322">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594216872920" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594218525322" />
     <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1594142581094">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -510,10 +515,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1594211248844">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1594217004532">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1594211248844" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1594217004532" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
