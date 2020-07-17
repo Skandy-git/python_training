@@ -12,7 +12,9 @@ class DbFixture:
         self.connection = pymysql.connect(host=host,
                              user=user,
                              password=password,
-                             db=db)
+                             db=db,
+                             autocommit=True
+                                          )
 
     def destroy(self):
         self.connection.close()
