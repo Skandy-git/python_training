@@ -64,6 +64,7 @@ class ContactHelper:
         wd = self.app.wd
         self.change_field_value("firstname", contact.firstname)
         self.change_field_value("middlename", contact.middlename)
+        self.change_field_value("lastname", contact.lastname)
         self.change_field_value("nickname", contact.nickname)
         self.change_field_value("mobile", contact.mobile)
         self.change_field_value("work", contact.work)
