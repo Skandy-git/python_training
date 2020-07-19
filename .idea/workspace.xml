@@ -19,12 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан тест для сравнения информации из бд с ui">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Реализована проверка данных, загруженных из бд, для тестов с удалением и добавлением групп">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_db_matches_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_delete_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_delete_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_update_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_update_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_update_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_update_group.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,28 +73,7 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_delete_group.py">
-    <configuration name="group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator/group.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_delete_contact.test_delete_contact">
     <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +90,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_delete_contact.test_delete_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +102,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test_delete_contact.test_delete_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_db_matches_ui.test_group_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_delete_group.test_delete_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +118,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_db_matches_ui.test_group_list&quot;" />
+      <option name="_new_target" value="&quot;test_delete_group.test_delete_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_delete_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_update_contact.test_update_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,24 +134,40 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_delete_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_update_contact.test_update_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_update_group.test_update_group_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_update_group.test_update_group_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.group" />
-      <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
       <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
-      <item itemvalue="Python tests.pytest for test_db_matches_ui.test_group_list" />
-      <item itemvalue="Python tests.pytest in test_delete_group.py" />
+      <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
+      <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
+      <item itemvalue="Python tests.pytest for test_delete_group.test_delete_group" />
+      <item itemvalue="Python tests.pytest for test_update_group.test_update_group_name" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_delete_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
-        <item itemvalue="Python tests.pytest for test_db_matches_ui.test_group_list" />
+        <item itemvalue="Python tests.pytest for test_delete_contact.test_delete_contact" />
+        <item itemvalue="Python tests.pytest for test_update_group.test_update_group_name" />
+        <item itemvalue="Python tests.pytest for test_update_contact.test_update_contact" />
+        <item itemvalue="Python tests.pytest for test_delete_group.test_delete_group" />
         <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
-        <item itemvalue="Python.group" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595008589833</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Реализована проверка данных, загруженных из бд, для тестов с удалением и добавлением групп">
+      <created>1595016747453</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1595016747453</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Реализована проверка валидности фикстуры для контактов" />
     <MESSAGE value="Реализована проверка состояния сессии. Написан новый тест добавления контакта только с ФИО" />
     <MESSAGE value="Выполнены предусловия в тестах для удаления и модификации групп и контактов" />
     <MESSAGE value="Добавлен переход на страницу контаков перед подсчётом количества контактов" />
@@ -536,13 +545,14 @@
     <MESSAGE value="Переименнован файл add_group в groups. Исправлен баг с невыгрузкой поля lastname для контактов. Удален генератор тестовых данных для контактов, с целью реализации статичных параметров теста" />
     <MESSAGE value="Создана фикстура для подключения к БД" />
     <MESSAGE value="Создан тест для сравнения информации из бд с ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан тест для сравнения информации из бд с ui" />
+    <MESSAGE value="Реализована проверка данных, загруженных из бд, для тестов с удалением и добавлением групп" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализована проверка данных, загруженных из бд, для тестов с удалением и добавлением групп" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594987303426">
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595085082993">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1594987303426" />
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1595085082993" />
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1594827320311">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -551,38 +561,38 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="336" key="GridCell.Tab.0.bottom" timestamp="1595016123915">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom" timestamp="1595148590776">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595016123915" />
-    <state width="1659" height="336" key="GridCell.Tab.0.center" timestamp="1595016123914">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595148590776" />
+    <state width="1659" height="220" key="GridCell.Tab.0.center" timestamp="1595148590776">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595016123914" />
-    <state width="1659" height="336" key="GridCell.Tab.0.left" timestamp="1595016123914">
+    <state width="1659" height="220" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595148590776" />
+    <state width="1659" height="220" key="GridCell.Tab.0.left" timestamp="1595148590776">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595016123914" />
-    <state width="1659" height="336" key="GridCell.Tab.0.right" timestamp="1595016123915">
+    <state width="1659" height="220" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595148590776" />
+    <state width="1659" height="220" key="GridCell.Tab.0.right" timestamp="1595148590776">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595016123915" />
-    <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1595016137051">
+    <state width="1659" height="220" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595148590776" />
+    <state width="1659" height="336" key="GridCell.Tab.1.bottom" timestamp="1595147836447">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595016137051" />
-    <state width="1659" height="336" key="GridCell.Tab.1.center" timestamp="1595016137051">
+    <state width="1659" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595147836447" />
+    <state width="1659" height="336" key="GridCell.Tab.1.center" timestamp="1595147836447">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595016137051" />
-    <state width="1659" height="336" key="GridCell.Tab.1.left" timestamp="1595016137051">
+    <state width="1659" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595147836447" />
+    <state width="1659" height="336" key="GridCell.Tab.1.left" timestamp="1595147836447">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595016137051" />
-    <state width="1659" height="336" key="GridCell.Tab.1.right" timestamp="1595016137051">
+    <state width="1659" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595147836447" />
+    <state width="1659" height="336" key="GridCell.Tab.1.right" timestamp="1595147836447">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595016137051" />
+    <state width="1659" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595147836447" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -603,10 +613,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1595008598305">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1595016755859">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1595008598305" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1595016755859" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
