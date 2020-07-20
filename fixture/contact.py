@@ -1,5 +1,6 @@
 from model.contact import Contact
 import re
+from selenium.webdriver.support.ui import Select
 
 
 class ContactHelper:
@@ -56,6 +57,7 @@ class ContactHelper:
 
     def select_contact_by_id(self, id):
         wd = self.app.wd
+        self.open_contact_page()
         wd.find_element_by_css_selector("input[value='%s']" % id).click()
 
     def update_first_contact(self):
@@ -170,3 +172,21 @@ class ContactHelper:
         mobilephone = re.search("M: (.*)", text).group(1)
         secondaryphone = re.search("P: (.*)", text).group(1)
         return Contact(homephone=homephone, workphone=workphone, mobilephone=mobilephone, secondaryphone=secondaryphone)
+
+    def add_to_group(self, value, id):
+        wd = self.app.wd
+        self.select_contact_by_id(id)
+        wd.find_element_by_name("to_group").click()
+        Select(wd.find_element_by_name("to_group")).select_by_value(value)
+        wd.find_element_by_name("add").click()
+        wd.find_element_by_link_text("home").click()
+
+    def delete_contact_from_group(self, value, id):
+        wd = self.app.wd
+        wd.find_element_by_name("group").click()
+        Select(wd.find_element_by_name("group")).select_by_value(value)
+        self.select_contact_by_id(id)
+        wd.find_element_by_name("remove").click()
+        wd.find_element_by_link_text("home").click()
+        wd.find_element_by_name("group").click()
+        Select(wd.find_element_by_name("group")).select_by_value("")

@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Осуществлен поиск клиента, который состоит в группе">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Исправлена ошибка при проверке флага check_ui в тесте по модификации контакта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_update_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_update_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_matches_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,7 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.db_matches_ui">
+  <component name="RunManager" selected="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group">
     <configuration name="db_matches_ui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for db_matches_ui" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_contact_to_group.test_add_contact_to_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +98,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;db_matches_ui&quot;" />
+      <option name="_new_target" value="&quot;test_add_contact_to_group.test_add_contact_to_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_matches_all_info.test_db_matches_ui_for_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_delete_contact_from_group.test_delete_contact_from_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +114,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_matches_all_info.test_db_matches_ui_for_contact&quot;" />
+      <option name="_new_target" value="&quot;test_delete_contact_from_group.test_delete_contact_from_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,7 +134,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_matches_all_info.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_contact_to_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,24 +146,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_matches_all_info.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact_to_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.db_matches_ui" />
-      <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
-      <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
-      <item itemvalue="Python tests.pytest for db_matches_ui" />
       <item itemvalue="Python tests.pytest in db_matches_ui.py" />
+      <item itemvalue="Python tests.pytest in test_add_contact_to_group.py" />
+      <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
+      <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
+        <item itemvalue="Python tests.pytest in test_add_contact_to_group.py" />
+        <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
         <item itemvalue="Python.db_matches_ui" />
         <item itemvalue="Python tests.pytest in db_matches_ui.py" />
-        <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
-        <item itemvalue="Python tests.pytest for db_matches_ui" />
-        <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595170919795</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Исправлена ошибка при проверке флага check_ui в тесте по модификации контакта">
+      <created>1595178131677</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1595178131677</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавлен переход на страницу контаков перед подсчётом количества контактов" />
     <MESSAGE value="Добавлен переход на страницу контактов перед подсчётом количества контактов в методе open_home_page" />
     <MESSAGE value="Загружена информация групп из приложения в виде списков" />
     <MESSAGE value="Осущствлена проверка равенства объектов и списков" />
@@ -554,7 +562,8 @@
     <MESSAGE value="Реализована проверка данных, загруженных из бд, для тестов с удалением и добавлением групп" />
     <MESSAGE value="Переделаны тесты таким образом, чтобы сравнивались данные, загруженные из БД. Реализованы отключаемые проверки пользовательского интерфейса" />
     <MESSAGE value="Осуществлен поиск клиента, который состоит в группе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Осуществлен поиск клиента, который состоит в группе" />
+    <MESSAGE value="Исправлена ошибка при проверке флага check_ui в тесте по модификации контакта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлена ошибка при проверке флага check_ui в тесте по модификации контакта" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595085082993">
@@ -569,38 +578,38 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="306" key="GridCell.Tab.0.bottom" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.0.bottom" timestamp="1595268108498">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.0.center" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108498" />
+    <state width="1659" height="306" key="GridCell.Tab.0.center" timestamp="1595268108498">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.0.left" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108498" />
+    <state width="1659" height="306" key="GridCell.Tab.0.left" timestamp="1595268108498">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.0.right" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108498" />
+    <state width="1659" height="306" key="GridCell.Tab.0.right" timestamp="1595268108498">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.1.bottom" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108498" />
+    <state width="1659" height="306" key="GridCell.Tab.1.bottom" timestamp="1595268108423">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.1.center" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108423" />
+    <state width="1659" height="306" key="GridCell.Tab.1.center" timestamp="1595268108423">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.1.left" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108423" />
+    <state width="1659" height="306" key="GridCell.Tab.1.left" timestamp="1595268108423">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
-    <state width="1659" height="306" key="GridCell.Tab.1.right" timestamp="1595172372633">
+    <state width="1659" height="306" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108423" />
+    <state width="1659" height="306" key="GridCell.Tab.1.right" timestamp="1595268108423">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595172372633" />
+    <state width="1659" height="306" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595268108423" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -621,10 +630,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1595170924735">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1595178142506">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1595170924735" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1595178142506" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -650,6 +659,11 @@
           <url>file://$PROJECT_DIR$/test/test_matches_all_info.py</url>
           <line>8</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_delete_contact_from_group.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
