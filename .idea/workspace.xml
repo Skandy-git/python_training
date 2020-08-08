@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Реализованы тесты для добавления контакта в группу и удаления контакта из группы">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан файл с нужными импортами">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_matches_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/contact.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,24 +59,41 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\python_training" />
       <recent name="C:\Users\User\PycharmProjects\python_training\test" />
+      <recent name="C:\Users\User\PycharmProjects\python_training\bdd" />
+      <recent name="C:\Users\User\PycharmProjects\python_training\data" />
       <recent name="C:\Users\User\PycharmProjects\python_training\model" />
-      <recent name="C:\Users\User\PycharmProjects\python_training\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_matches_all_info.py">
-    <configuration name="pytest for test_add_contact_to_group.test_add_contact_to_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact">
+    <configuration name="pytest for bdd.contact_scenarios.test_add_new_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact_to_group.test_add_contact_to_group&quot;" />
+      <option name="_new_target" value="&quot;bdd.contact_scenarios.test_add_new_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for contact_scenarios.test_add_new_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bdd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;contact_scenarios.test_add_new_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -113,22 +129,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_contact_to_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact_to_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_matches_all_info.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_add_contact_to_group.py" />
-      <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
       <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
       <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
       <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
+      <item itemvalue="Python tests.pytest for contact_scenarios.test_add_new_contact" />
+      <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact" />
+        <item itemvalue="Python tests.pytest for contact_scenarios.test_add_new_contact" />
         <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
         <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
         <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
-        <item itemvalue="Python tests.pytest in test_add_contact_to_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_contact_to_group.test_add_contact_to_group" />
       </list>
     </recent_temporary>
   </component>
@@ -173,20 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591444482136</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added addition description for readme file">
-      <created>1591446080620</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591446080620</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added new project in PyCharm">
-      <created>1591446217290</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591446217290</updated>
     </task>
     <task id="LOCAL-00004" summary="Added and edited Katalon test for testing &quot;Add_group&quot;">
       <created>1591448016815</created>
@@ -517,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595268328757</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Переделан тест на проверку всей информации таким образом, чтобы проверялся каждый контакт, а не случайно выбранный">
+      <created>1595273566939</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1595273566939</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Создан файл с нужными импортами">
+      <created>1596873535966</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1596873535966</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,8 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Загружена информация групп из приложения в виде списков" />
-    <MESSAGE value="Осущствлена проверка равенства объектов и списков" />
     <MESSAGE value="Отсортированы списки для групп перед их сравнением" />
     <MESSAGE value="Реализованы проверки в виде сравнения списков контактов. Отсортированы списки для контактов перед их сравнением" />
     <MESSAGE value="Реализованы кеширование и хеширование для групп и контактов" />
@@ -558,13 +556,19 @@
     <MESSAGE value="Осуществлен поиск клиента, который состоит в группе" />
     <MESSAGE value="Исправлена ошибка при проверке флага check_ui в тесте по модификации контакта" />
     <MESSAGE value="Реализованы тесты для добавления контакта в группу и удаления контакта из группы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы тесты для добавления контакта в группу и удаления контакта из группы" />
+    <MESSAGE value="Переделан тест на проверку всей информации таким образом, чтобы проверялся каждый контакт, а не случайно выбранный" />
+    <MESSAGE value="Создан файл с нужными импортами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан файл с нужными импортами" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595085082993">
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595757241834">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1595085082993" />
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1595757241834" />
+    <state x="582" y="307" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596871426598">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="582" y="307" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1596871426598" />
     <state x="215" y="280" key="FileChooserDialogImpl" timestamp="1594827320311">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -573,38 +577,38 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="220" key="GridCell.Tab.0.bottom" timestamp="1595273399847">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom" timestamp="1596822260279">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595273399847" />
-    <state width="1659" height="220" key="GridCell.Tab.0.center" timestamp="1595273399847">
+    <state width="1659" height="220" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
+    <state width="1659" height="220" key="GridCell.Tab.0.center" timestamp="1596822260279">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595273399847" />
-    <state width="1659" height="220" key="GridCell.Tab.0.left" timestamp="1595273399847">
+    <state width="1659" height="220" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
+    <state width="1659" height="220" key="GridCell.Tab.0.left" timestamp="1596822260279">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595273399847" />
-    <state width="1659" height="220" key="GridCell.Tab.0.right" timestamp="1595273399847">
+    <state width="1659" height="220" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
+    <state width="1659" height="220" key="GridCell.Tab.0.right" timestamp="1596822260279">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595273399847" />
-    <state width="1659" height="306" key="GridCell.Tab.1.bottom" timestamp="1595273340229">
+    <state width="1659" height="220" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
+    <state width="1659" height="306" key="GridCell.Tab.1.bottom" timestamp="1595273790442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595273340229" />
-    <state width="1659" height="306" key="GridCell.Tab.1.center" timestamp="1595273340229">
+    <state width="1659" height="306" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1595273790442" />
+    <state width="1659" height="306" key="GridCell.Tab.1.center" timestamp="1595273790442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595273340229" />
-    <state width="1659" height="306" key="GridCell.Tab.1.left" timestamp="1595273340229">
+    <state width="1659" height="306" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1595273790442" />
+    <state width="1659" height="306" key="GridCell.Tab.1.left" timestamp="1595273790442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595273340229" />
-    <state width="1659" height="306" key="GridCell.Tab.1.right" timestamp="1595273340229">
+    <state width="1659" height="306" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1595273790442" />
+    <state width="1659" height="306" key="GridCell.Tab.1.right" timestamp="1595273790442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="306" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595273340229" />
+    <state width="1659" height="306" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1595273790442" />
     <state x="363" y="284" key="MultipleFileMergeDialog" timestamp="1591523948187">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -617,18 +621,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="610" y="207" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732118765" />
-    <state x="341" y="150" key="SettingsEditor" timestamp="1591522076568">
+    <state x="341" y="150" key="SettingsEditor" timestamp="1596872276621">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1591522076568" />
+    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1596872276621" />
     <state x="687" y="419" key="VCS.ChangelistChooser" timestamp="1591446183525">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1595268334678">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1596873542044">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1595268334678" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1596873542044" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -641,21 +645,5 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="458" y="289" width="630" height="455" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1591548074397" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_delete_contact.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_matches_all_info.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
