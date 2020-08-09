@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Создан файл с нужными импортами">
+    <list default="true" id="8fec5b32-52be-437e-8348-13d47e629131" name="Default Changelist" comment="Исправлена ошибка в тесте test_add_group.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_matches_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_delete_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_delete_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_update_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_update_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_update_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_update_group.py" afterDir="false" />
     </list>
     <list id="ffb35324-58d5-42ab-a95b-9b9107395dfb" name="Added new project in PyCharm" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +44,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1cwfGiO5aoaNXcXPBMx3dNvKbvd" />
   <component name="ProjectLevelVcsManager">
@@ -64,7 +68,7 @@
       <recent name="C:\Users\User\PycharmProjects\python_training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact">
+  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group">
     <configuration name="pytest for bdd.contact_scenarios.test_add_new_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +101,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_delete_contact_from_group.test_delete_contact_from_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +113,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delete_contact_from_group.test_delete_contact_from_group&quot;" />
+      <option name="_new_target" value="&quot;test_add_group.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_matches_all_info.test_db_matches_ui_for_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,8 +129,8 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_matches_all_info.test_db_matches_ui_for_contact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_matches_all_info.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -146,19 +150,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
-      <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
       <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
       <item itemvalue="Python tests.pytest for contact_scenarios.test_add_new_contact" />
       <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact" />
+      <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+      <item itemvalue="Python tests.pytest in test_add_group.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest for bdd.contact_scenarios.test_add_new_contact" />
         <item itemvalue="Python tests.pytest for contact_scenarios.test_add_new_contact" />
         <item itemvalue="Python tests.pytest in test_matches_all_info.py" />
-        <item itemvalue="Python tests.pytest for test_matches_all_info.test_db_matches_ui_for_contact" />
-        <item itemvalue="Python tests.pytest for test_delete_contact_from_group.test_delete_contact_from_group" />
       </list>
     </recent_temporary>
   </component>
@@ -173,41 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591444482136</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added and edited Katalon test for testing &quot;Add_group&quot;">
-      <created>1591448016815</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591448016815</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Katalon test for add group">
-      <created>1591453241873</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591453241873</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Добавлены вспомогальные методы, повышена читаемость кода">
-      <created>1591523850022</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1591523850022</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Добавлены вспомогальные методы, повышена читаемость кода">
-      <created>1591524506151</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1591524506151</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Создан вспомогательный класс для хранения свойств группы и передачи данных во вспомогательные методы">
-      <created>1591527125088</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1591527125088</updated>
     </task>
     <task id="LOCAL-00009" summary="Создан тест &quot;Добавление контакта&quot;">
       <created>1591531202471</created>
@@ -517,7 +486,42 @@
       <option name="project" value="LOCAL" />
       <updated>1596873535966</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Импортирован json файл со случайными группами">
+      <created>1596873817019</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1596873817019</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Импортирован json файл со случайными контактами">
+      <created>1596884857845</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1596884857845</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Подготовлены файлы для работы с Allure">
+      <created>1596903686879</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1596903686880</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Добавлен файл  lxml">
+      <created>1596915625897</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1596915625897</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Исправлена ошибка в тесте test_add_group.py">
+      <created>1596919828639</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1596919828639</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,11 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Отсортированы списки для групп перед их сравнением" />
-    <MESSAGE value="Реализованы проверки в виде сравнения списков контактов. Отсортированы списки для контактов перед их сравнением" />
-    <MESSAGE value="Реализованы кеширование и хеширование для групп и контактов" />
-    <MESSAGE value="Реализован случайный выбор группы(контакта) для модификации и удаления" />
-    <MESSAGE value="Исправлена ошибка в методе для модификации контактов таким образом, чтобы модифицировался случайно выбранный контакт по кнопке &quot;Edit&quot;" />
     <MESSAGE value="Сделаны тесты для проверки телефонов" />
     <MESSAGE value="Реализованы проверки для всех полей контакта на главной странице" />
     <MESSAGE value="Параметризованы тесты для создания групп и контактов" />
@@ -558,7 +557,12 @@
     <MESSAGE value="Реализованы тесты для добавления контакта в группу и удаления контакта из группы" />
     <MESSAGE value="Переделан тест на проверку всей информации таким образом, чтобы проверялся каждый контакт, а не случайно выбранный" />
     <MESSAGE value="Создан файл с нужными импортами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан файл с нужными импортами" />
+    <MESSAGE value="Импортирован json файл со случайными группами" />
+    <MESSAGE value="Импортирован json файл со случайными контактами" />
+    <MESSAGE value="Подготовлены файлы для работы с Allure" />
+    <MESSAGE value="Добавлен файл  lxml" />
+    <MESSAGE value="Исправлена ошибка в тесте test_add_group.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлена ошибка в тесте test_add_group.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595757241834">
@@ -577,22 +581,22 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="550" y="405" key="GitRewordDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732244497" />
-    <state width="1659" height="220" key="GridCell.Tab.0.bottom" timestamp="1596822260279">
+    <state width="1659" height="419" key="GridCell.Tab.0.bottom" timestamp="1596909526167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
-    <state width="1659" height="220" key="GridCell.Tab.0.center" timestamp="1596822260279">
+    <state width="1659" height="419" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1596909526167" />
+    <state width="1659" height="419" key="GridCell.Tab.0.center" timestamp="1596909526167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
-    <state width="1659" height="220" key="GridCell.Tab.0.left" timestamp="1596822260279">
+    <state width="1659" height="419" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1596909526167" />
+    <state width="1659" height="419" key="GridCell.Tab.0.left" timestamp="1596909526167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
-    <state width="1659" height="220" key="GridCell.Tab.0.right" timestamp="1596822260279">
+    <state width="1659" height="419" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1596909526167" />
+    <state width="1659" height="419" key="GridCell.Tab.0.right" timestamp="1596909526167">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="220" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1596822260279" />
+    <state width="1659" height="419" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1596909526167" />
     <state width="1659" height="306" key="GridCell.Tab.1.bottom" timestamp="1595273790442">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -621,18 +625,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="610" y="207" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592732118765" />
-    <state x="341" y="150" key="SettingsEditor" timestamp="1596872276621">
+    <state x="341" y="150" key="SettingsEditor" timestamp="1596909009079">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1596872276621" />
+    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1596909009079" />
     <state x="687" y="419" key="VCS.ChangelistChooser" timestamp="1591446183525">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="687" y="419" key="VCS.ChangelistChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1591446183525" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1596873542044">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1596919903784">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1596873542044" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1596919903784" />
     <state x="649" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592046784933">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
