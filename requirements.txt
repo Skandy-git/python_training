@@ -6,3 +6,4 @@ pony
 pymysql
 allure-pytest
 lxml
+webdriver_manager
