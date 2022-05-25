@@ -7,3 +7,4 @@ pymysql
 allure-pytest
 lxml
 webdriver_manager
+pytest-rerunfailures
